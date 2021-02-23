@@ -17,7 +17,7 @@
 // GPIO defines
 //
 #define DEVICE_TYPE 9
-#define FIRMWARE_VERSION "1.1.1"
+#define FIRMWARE_VERSION "1.1.2"
 
 #define PIN_ONOFF 0 // GPIO0
 #define PIN_LED LED_BUILTIN
