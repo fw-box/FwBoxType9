@@ -17,7 +17,7 @@
 // GPIO defines
 //
 #define DEVICE_TYPE 9
-#define FIRMWARE_VERSION "1.1.2"
+#define FIRMWARE_VERSION "1.1.3"
 
 #define PIN_ONOFF 0 // GPIO0
 #define PIN_LED LED_BUILTIN
@@ -48,7 +48,7 @@
 void setup()
 {
   Wire.begin();
-  Serial.begin(9600);
+  Serial.begin(115200);
 
   pinMode(PIN_ONOFF, OUTPUT);
   pinMode(PIN_LED, OUTPUT);
